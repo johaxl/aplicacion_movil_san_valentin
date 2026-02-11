@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "991685235817",
-    "project_id": "nico-b818b",
-    "storage_bucket": "nico-b818b.firebasestorage.app"
+    "project_number": "423809102647",
+    "project_id": "nicky-love-app-f564e",
+    "storage_bucket": "nicky-love-app-f564e.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:991685235817:android:6675ae31dbe281b62f3ef8",
+        "mobilesdk_app_id": "1:423809102647:android:5620bd839b98dce29220b2",
         "android_client_info": {
           "package_name": "com.example.nicky"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyD9K8QYBZSFJqmDJd3dQv4TGExhmeKPWNg"
+          "current_key": "AIzaSyB8jjkSdQqYmR9rD3KIlLnBOV1xYmToRVo"
         }
       ],
       "services": {

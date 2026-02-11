@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 import 'home_screen.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized(); // necesario
-  await Firebase.initializeApp(); //  Firebase
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const ParaTiApp());
 }
 
@@ -15,7 +16,7 @@ class ParaTiApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Para Ti 💕',
+      title: 'Nicky',
       theme: ThemeData(primarySwatch: Colors.pink),
       home: const HomeScreen(),
     );
