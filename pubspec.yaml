@@ -1,5 +1,5 @@
 name: nicky
-description: "App romántica hecha en Flutter para San Valentín 💕"
+description: "App romántica hecha en Flutter para San Valentín"
 publish_to: "none"
 
 version: 1.0.0+1
@@ -11,18 +11,11 @@ dependencies:
   flutter:
     sdk: flutter
 
-  # Iconos estilo iOS
   cupertino_icons: ^1.0.8
-
-  # Tipografías bonitas
-  google_fonts: ^6.1.0
-
-  # Guardar datos locales (si luego quieres persistir cosas)
+  google_fonts: ^8.0.1
   shared_preferences: ^2.5.4
-
-  # Firebase (notas compartidas)
-  firebase_core: ^3.6.0
-  cloud_firestore: ^5.4.0
+  firebase_core: ^4.4.0
+  cloud_firestore: ^6.1.2
   audioplayers: ^6.1.0
   lottie: ^3.1.2
 
@@ -30,7 +23,18 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/nicol.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: assets/nicol.png
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: assets/nicol.png
