@@ -69,12 +69,12 @@ class HomeScreen extends StatelessWidget {
               "Razones por las que te amo",
               const RazonesScreen(),
             ),
-            drawerItem(
+            /* drawerItem(
               context,
               Icons.note,
               "Notas para Nosotros",
               NotasScreen(),
-            ),
+            ), */
           ],
         ),
       ),
@@ -146,7 +146,7 @@ class HomeScreen extends StatelessWidget {
     );
   }
 
-  // 👉 ITEM DEL DRAWER
+  // Función para calcular los días juntos
   Widget drawerItem(
     BuildContext context,
     IconData icon,
