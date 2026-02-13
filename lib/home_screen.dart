@@ -4,7 +4,7 @@ import 'cartas_screen.dart';
 import 'historias_screen.dart';
 import 'vales_screen.dart';
 import 'razones_screen.dart';
-import 'notas_screen.dart';
+// import 'notas_screen.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
